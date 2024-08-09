@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2dgame</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        h3 {
+            color: white;
+            position: absolute;
+            top: -5px;
+            left: 10%;
+        }
+
+        #score {
+            font-size: 24px;
+            color: white;
+        }
+        canvas {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <h3>Score: <span id="score">0</span></h3>
+    <canvas id="canvas"></canvas>
+    
+    <script src="main.js"></script>
+</body>
+</html>
